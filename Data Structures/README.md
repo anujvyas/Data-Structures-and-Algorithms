@@ -1,5 +1,3 @@
-# Data Structures
-
 ![DS](readme-resources/data-structures.png)
 
 ## Overview
