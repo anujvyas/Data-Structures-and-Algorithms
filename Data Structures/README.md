@@ -1,3 +1,6 @@
 # Data Structures
 
-![DS](readme-resources/data-structure.png)
+![DS](readme-resources/data-structures.png)
+
+## Overview
+Implementing Data Structure using Python language, along with problem solving related to that data structure.
