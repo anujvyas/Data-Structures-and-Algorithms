@@ -1,12 +1,12 @@
 # Data Structure: LinkedList
 # Methods: 	1. traverse
-# 			2. insertion:
-# 				• append_node
-# 				• prepend_node
-# 				• insert_node_after
-# 			3. deletion:
-# 				• delete_node
-# 				• delete_node_at_position
+# 		2. insertion:
+# 			• append_node
+# 			• prepend_node
+# 			• insert_node_after
+# 		3. deletion:
+# 			• delete_node
+# 			• delete_node_at_position
 
 
 
