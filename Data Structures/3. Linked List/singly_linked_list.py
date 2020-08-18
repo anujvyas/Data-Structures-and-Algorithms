@@ -1,4 +1,4 @@
-# Data Structure: LinkedList
+# Data Structure: Singly LinkedList
 # Methods: 	1. traverse
 # 			2. insertion:
 # 				• append_node
@@ -26,6 +26,7 @@ class LinkedList:
 		# If linkedlist is empty
 		if self.head == None:
 			print('Cannot traverse as linkedlist is empty!')
+			return -1
 
 		# If linkedlist has nodes
 		temp = self.head
