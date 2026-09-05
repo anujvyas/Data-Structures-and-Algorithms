@@ -1,0 +1,30 @@
+# Take the number of rows as an input
+row = int(input())
+
+# Validation
+if row <= 0 or row > 10:
+    print('Invalid input: Enter a number in between 1 to 10.')
+
+# print the up pattern
+for i in range(0, row):
+    # Print space
+    for j in range(0, row-i-1):
+        print(' ', end='')
+
+    # Print *
+    for k in range(0, (i+1)*2-1):
+        print('*', end='')
+
+    print()
+
+# print the down pattern
+for i in range(0, row):
+    # Print space
+    for j in range(0, i):
+        print(' ', end='')
+
+    # Print *
+    for k in range(0, (row-i)*2-1):
+        print('*', end='')
+
+    print()
