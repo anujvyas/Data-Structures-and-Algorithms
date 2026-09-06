@@ -18,4 +18,4 @@ for i in range(0, 2*row-1):
 
         print(row - min(top, left, right, bottom), end='')
 
-    print()         # default adds as new line
+    print()
