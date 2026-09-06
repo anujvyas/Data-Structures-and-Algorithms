@@ -5,8 +5,12 @@ row = int(input())
 if row <= 0 or row > 10:
     print('Invalid input: Enter a number in between 1 to 10.')
 
-# print the pattern
 for i in range(0, row):
+    CURR_ASCII = 65    # Ascii value for `A` = 65
+
+    # Print pattern
     for j in range(0, row-i):
-        print('*', end='')
-    print()         # default adds as new line
+        print(chr(CURR_ASCII), end='')
+        CURR_ASCII += 1
+
+    print()
