@@ -9,7 +9,7 @@ class Solution:
         # Logic
         counter = 0
         while number > 10:
-            number = number / 10
+            number = number // 10
             counter += 1
 
         return counter+1
