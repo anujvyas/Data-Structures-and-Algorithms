@@ -14,4 +14,4 @@ if __name__ == '__main__':
     sol = Solution()
     input_arr = [int(x.strip()) for x in input().split(',')]
     sol.reverse(input_arr)
-    print('Output: ', input_arr)
+    print('Output: ', input_arr) 
